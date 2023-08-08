@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/chartSlide.js" defer></script>
+<link href="css/style.css" rel="stylesheet">
+<script src="js/script.js" defer></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+<title>CGV</title>
+</head>
+
+
+<body >
+<div class="totalWrap">
+<header class="header" >
+    <div id="head">
+        <nav>
+            <div id="mainMenu">
+                <ul class="mainMenu">
+                <li>          
+                    <a href="http://bokbok1234.dothome.co.kr/index.html"> <img src="img/logo_white.jpg" alt="메인로고" class="logo"/></a>
+                </li>
+                <li>
+                    <a href="#"><h2>영화</h2></a>
+                    <dl class="subMenu">
+                    <dt class="dtTitle"> 영화
+                    </dt>
+                        <dd><h3>무비차트</h3></dd>
+                        <dd><h3>아트하우스</h3></dd>
+                        <dd><h3>ICECON</h3></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><h2>극장</h2></a></li>
+                <li>
+                    <a href="#"><h2>예매</h2></a>
+                    <dl class="subMenu"><dt class="dtTitle">
+                        예매
+                    </dt>
+                        <dd><h3>CGV 극장</h3></dd>
+                        <dd><h3>특별관</h3></dd>
+                    </dl>
+                </li>
+                <li><a href="#"></a><h2>스토어</h2>
+                   
+                </li>
+                <li><a href="http://bokbok1234.dothome.co.kr/event.html"><h2>이벤트</h2></a>
+                    <dl class="subMenu"><dt class="dtTitle">
+                        이벤트
+                    </dt>
+                        <dd><h3>SPECIAL</h3></dd>
+                        <dd><h3>영화/예매</h3></dd>
+                        <dd><h3>멤버십/CLUB</h3></dd>
+                        <dd><h3>제휴할인</h3></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><h2>혜택</h2></a>
+                    <dl class="subMenu"><dt class="dtTitle">
+                        혜택
+                    </dt>
+                        <dd><h3>CGV 할인정보</h3></dd>
+                        <dd><h3>CLUB 서비스</h3></dd>
+                        <dd><h3>VIP 라운지</h3></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="subMenu search">
+                        <dd>
+                            <label for="search"></label>
+                            <input type="text" id="search" placeholder="검색할 내용을 입력해주세요"/>
+                            <button><span class="material-symbols-outlined">
+                                search
+                                </span></button>
+
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul class="userMenu">
+               <li ><h2><a href="http://bokbok1234.dothome.co.kr/login.html">로그인</a></h2></li>
+                <li><h2><a href="#">회원가입</a></h2></li>
+            </ul>
+         </div>
+        </nav>
+    </div>
+    <div class="topSection">
+        <div class="topContentsWrap">
+        <div class="topContents">
+            <a href="http://bokbok1234.dothome.co.kr/index.html"> <img src="img/logo_white.jpg" alt="메인로고" class="logo2"/></a>
+            <span>CULTUREPLEX</span>
+        </div>
+        <div class="topLoginSection">
+            <ul>
+                <li><a href="http://bokbok1234.dothome.co.kr/login.html"><span class="material-symbols-outlined">
+                    passkey
+                    </span><h4 >로그인</h4></a></li>
+                <li><span class="material-symbols-outlined">
+                    person_add
+                    </span><h4>회원가입</h4>
+                </li>
+                <li><span class="material-symbols-outlined">
+                    person
+                    </span><h4>MY CGV</h4></li>
+                <li><span class="material-symbols-outlined">
+                    support_agent
+                    </span><h4>고객센터</h4></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div id="topHead">
+        <nav >
+            <div id="mainMenu2">
+                <ul class="mainMenu2">
+                <li>
+                    <a href="#"><h2>영화</h2></a>
+                    <dl class="subMenu2">
+                    <dt class="dtTitle"> 영화
+                    </dt>
+                        <dd><h3>무비차트</h3></dd>
+                        <dd><h3>아트하우스</h3></dd>
+                        <dd><h3>ICECON</h3></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><h2>극장</h2></a></li>
+                <li>
+                    <a href="#"><h2>예매</h2></a>
+                    <dl class="subMenu2"><dt class="dtTitle">
+                        예매
+                    </dt>
+                        <dd><h3>CGV 극장</h3></dd>
+                        <dd><h3>특별관</h3></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><h2>스토어</h2></a>
+                   
+                </li>
+                <li><a href="http://bokbok1234.dothome.co.kr/event.html"><h2>이벤트</h2></a>
+                    <dl class="subMenu2"><dt class="dtTitle">
+                        이벤트
+                    </dt>
+                        <dd><h3>SPECIAL</h3></dd>
+                        <dd><h3>영화/예매</h3></dd>
+                        <dd><h3>멤버십/CLUB</h3></dd>
+                        <dd><h3>제휴할인</h3></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><h2>혜택</h2></a>
+                    <dl class="subMenu2"><dt class="dtTitle">
+                        혜택
+                    </dt>
+                        <dd><h3>CGV 할인정보</h3></dd>
+                        <dd><h3>CLUB 서비스</h3></dd>
+                        <dd><h3>VIP 라운지</h3></dd>
+                    </dl>
+                </li>
+                
+            </ul>
+            <div class="topSearch">
+                
+                <label for="search2"></label>
+                <input type="text" id="search2" placeholder="검색할 내용을 입력해주세요"/>
+                 <button><span class="material-symbols-outlined">
+                        search
+                </span>
+                </button>
+
+            </div>
+         </div>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <div class="bannerWrap">
+        <div class="mainBanner">
+          <div id="first">
+            <ul class="bannerTap" >        
+                <li>
+                    <iframe width="1500" height="600" src="https://www.youtube.com/embed/hAO9a1xSo3M?mute=1&autoplay=1&rel=0&loop=1&playlist=hAO9a1xSo3M&background=1&controls=0"
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>               
+                </li>
+            </ul>
+            <div class="bannerTitle" >
+                <h1>콘크리트 유토피아</h1>
+                <h3>극장가를 압도할 강렬한 기대작 8월 9일, 큰 거 온다!</h3>
+                <button>상세 보기<span class="material-symbols-outlined">
+                    arrow_forward_ios
+                    </span></button>
+            </div>
+         </div>
+         <div id="second">
+            <ul class="bannerTap" >        
+                <li>
+                    <iframe width="1500" height="600" src="https://www.youtube.com/embed/5O3g8nwlXHo?mute=1&autoplay=1&rel=0&loop=1&playlist=5O3g8nwlXHo&background=1&controls=0"
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>               
+                </li>
+            </ul>
+            <div class="bannerTitle" >
+                <h1>더 문</h1>
+                <h3>올여름, 우리 같이 달 보러 갈래? <br>광활한 우주의 스펙터클, 예매 GO!</h3>
+                <button >상세 보기<span class="material-symbols-outlined">
+                    arrow_forward_ios
+                    </span></button>
+            </div>
+        </div>
+        <div id="third">
+            <ul class="bannerTap" >        
+                <li>
+                    <iframe width="1200" height="700" src="https://www.youtube.com/embed/59QwUrmzqgM?mute=1&autoplay=1&rel=0&loop=1&playlist=59QwUrmzqgM&background=1&controls=0&start=78"
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>               
+                </li>
+            </ul>
+            <div class="bannerTitle" >
+                <h1>메가로돈2</h1>
+                <h3>제이슨 스타뎀 VS 메가로돈 리매치!<br>8월 15일 극장 대개봉</h3>
+                <button>상세 보기<span class="material-symbols-outlined">
+                    arrow_forward_ios
+                    </span></button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="contentWrap">
+        <div class="movieTapWrap">
+            <ul class="movieTap">
+                <li><a href="#panel1" class="on">무비차트</a></li>
+                <li><a href="#panel2" >상영예정작</a></li>
+            </ul>
+            <button class="movieBtn">전체 보기<span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span></button>
+        <div class="tapContents">
+            <div class="panel" id="panel1">
+                <ul class="movieInfo movieInfo1">
+                    <li ><span class="span1">1</span><img src="img/movie1.jpg"  alt="차트1영화"/><span class="span">밀수</span></li>
+                    <li ><span class="span1">2</span><img src="img/movie2.jpg"  alt="차트2영화"/><span class="span">미션임파서블</span></li>
+                    <li ><span class="span1">3</span><img src="img/movie3.jpeg"  alt="차트3영화"/><span class="span">더 문</span></li>
+                    <li ><span class="span1">4</span><img src="img/movie4.jpg" alt="차트4영화"/><span class="span">엘리멘탈</span></li>
+                    <li ><span class="span1">5</span><img src="img/movie5.jpg"  alt="차트5영화"/><span class="span">명탐정 코난</span></li>
+                    <li ><span class="span1">6</span><img src="img/movie6.jpg"  alt="차트1영화"/><span class="span">비공식 작전</span></li>
+                    <li ><span class="span1">7</span><img src="img/movie7.jpg"  alt="차트2영화"/><span class="span">오펜하이머</span></li>
+                    <li ><span class="span1">8</span><img src="img/movie8.jpg"  alt="차트3영화"/><span class="span">바비</span></li>
+                    <li ><span class="span1">9</span><img src="img/movie9.jpg" alt="차트4영화"/><span class="span">콘크리트 유토피아</span></li>
+                    <li ><span class="span1">10</span><img src="img/movie10.jpg"  alt="차트5영화"/><span class="span">인시디어스</span></li>
+                </ul>
+            </div>
+            <div class="panel" id="panel2">
+                <ul class="movieInfo">
+                    <li><span class="span1">1</span><img src="img/p4.jpg" alt="예정1영화"/><span class="span">핑크퐁 콘서트</span></li>
+                    <li><span class="span1">2</span><img src="img/movie1.jpg"  alt="예정2영화"/><span class="span">밀수</span></li>
+                    <li><span class="span1">3</span><img src="img/p1.jpeg"  alt="예정3영화"/><span class="span">비닐하우스</span></li>
+                    <li><span class="span1">4</span><img src="img/p2.jpg"  alt="예정4영화"/><span class="span">에고이스트</span></li>
+                    <li><span class="span1">5</span><img src="img/p3.jpg"  alt="예정5영화"/><span class="span">헌티드 멘션</span></li>
+                    <li><span class="span1">6</span><img src="img/p6.jpg" alt="예정1영화"/><span class="span">몬스터 패밀리2</span></li>
+                    <li><span class="span1">7</span><img src="img/p7.jpg"  alt="예정2영화"/><span class="span">다섯번째 홍추</span></li>
+                    <li><span class="span1">8</span><img src="img/p8.jpg"  alt="예정3영화"/><span class="span">살바도르 달리</span></li>
+                    <li><span class="span1">9</span><img src="img/p9.jpg"  alt="예정4영화"/><span class="span">마에스트로</span></li>
+                    <li><span class="span1">10</span><img src="img/p10.jpg"  alt="예정5영화"/><span class="span">이름없는 춤</span></li>
+                </ul>
+            </div>
+        </div>
+            <button class="left moveBtn">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </button>
+            <button class="right moveBtn">
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </button>
+           
+
+        </div>
+    </div>
+    <div class="eventWarp">
+        <div class="eventContentsWrap">
+            <h2>이벤트</h2>
+            <button class="movieBtn" >전체 보기<span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span></button>
+            <ul class="eventContents">
+                <li><div class="a">
+                    <img src="img/event1.jpg" alt="이벤트1"/></div>
+                    <h4>[ 핑크퐁 시네마 콘서트 ]</h4>
+                    <p>2023.07.21~2023.07.31</p>
+                </li>
+                <li><div class="a"> <img src="img/event2.jpg" alt="이벤트2"/></div>
+                    <h4>[ 극장판 슈퍼윙스 ] 방학 스페셜</h4>
+                    <p>2023.07.21~2023.07.31</p>
+                </li>
+                <li><div class="a"><img src="img/event3.jpg" alt="이벤트3"/></div>
+                    <h4>[ 바비 ] N차 관람 이벤트</h4>
+                    <p>2023.07.21~2023.07.31</p>
+                </li>
+                <li><div class="a"><img src="img/event4.jpg" alt="이벤트4"/></div>
+                    <h4>[ 한국영화BIG3 ] IMAX</h4>
+                    <p>2023.06.21~2023.09.31</p>
+                </li>
+                <li><div class="a"><img src="img/event5.jpg" alt="이벤트5"/></div>
+                    <h4>[ 밀수 ] 필름마크</h4>
+                    <p>2023.07.15~2023.08.31</p>
+                </li>
+                <li><div class="a"><img src="img/event6.jpg" alt="이벤트6"/></div>
+                    <h4>[ 엘리멘탈 ] 흥행감사 이벤트</h4>
+                    <p>2023.07.18~2023.07.26</p>
+                </li>
+            </ul>
+            <button class="left2 moveBtn">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </button>
+            <button class="right2 moveBtn">
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </button>
+        </div>
+        
+    </div>
+    <div class="theaterWrap">
+        <h2>특별관</h2>
+        <button class="movieBtn">전체 보기<span class="material-symbols-outlined">
+            arrow_forward_ios
+            </span></button>
+
+        <div class="theaterTapWrap">
+            <ul class="theaterTap">
+                <li><a href="#theaterPanel1" class="oon theaterTap1">SUITE CINEMA<span class="span2">#호텔 컨셉의 프리미엄관</span></a></li>
+                <li><a href="#theaterPanel2" class="theaterTap2">CINE & LIVINGROOM<span class="span2">#신개념 소설 상영관</span></a></li>
+                <li><a href="#theaterPanel3" class="theaterTap3">4DX<span class="span2">#모션시트 #오감체험</span></a></li>
+                <li><a href="#theaterPanel4" class="theaterTap4">CINE de CHEF<span class="span2">#쉐프가 있는 영화관</span></a></li>
+            </ul>
+        </div>
+        <div class="theaterContents">
+            <div class="theaterPanel" id="theaterPanel1">
+                <ul class="specialT">
+                    <li><a href="#"><div class="a"><img src="img/special1.png"  alt="특별관1"/></div></a></li>
+                </ul>
+            </div>
+            <div class="theaterPanel" id="theaterPanel2">
+                <ul class="specialT">
+                    <li><a href="#"><div class="a"><img src="img/special2.png"  alt="특별관2"/></div> </a></li>
+                </ul>
+            </div>
+            <div class="theaterPanel" id="theaterPanel3">
+                <ul class="specialT">
+                    <li><a href="#"><div class="a"><img src="img/special3.png"  alt="특별관3"/></div> </a></li>
+                </ul>
+                </div>
+                <div class="theaterPanel" id="theaterPanel4">
+                <ul class="specialT">
+                    <li><a href="#"><div class="a"><img src="img/special4.png"  alt="특별관4"/></div> </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="giftWrap">
+        <div class="giftContentsWrap">
+            <div class="packageWrap">
+                <h3>패키지</h3>
+                <a href="#" class="moreInfo">더보기</a>
+                <ul class="wrap"> 
+                    <li>
+                        <a href="#"><img src="img/package3.jpg" alt="패키지"/>
+                            <div class="dd">
+                                <h4>핑크퐁 시네마 패키지</h4>14,000원
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/package1.jpg" alt="패키지"/>
+                            <div class="dd">
+                                <h4>우리패키지</h4>61,000원
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/package2.jpg" alt="패키지"/>
+                            <div class="dd">
+                                <h4>나랑 너 패키지</h4>34,000원
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="movieGiftWrap">
+                <h3>영화관람권</h3>
+                <a href="#" class="moreInfo">더보기</a>
+                <ul> 
+                    <li>
+                        <a href="#"><img src="img/movieGift1.jpg" alt="관람권1"/>
+                            <div class="dd">
+                                <h4>CGV 골드클래스</h4>40,000원
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/movieGift2.jpg" alt="관람권2"/>
+                            <div class="dd">
+                                <h4>CGV 영화관람권</h4>13,000원
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/movieGift3.jpg" alt="관람권3"/>
+                            <div class="dd">
+                                <h4>4DX관람권</h4>19,000원
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="giftCardWrap">
+                <h3>기프트카드</h3>
+                <a href="#" class="moreInfo">더보기</a>
+                <ul> 
+                    <li>
+                    <a href="#"><img src="img/giftCard1.jpg" alt="패키지"/>
+                        <div class="dd">
+                        <h4>파코니 여름을부탁해</h4>금액충전형
+                        </div>
+                    </a>
+                </li>
+                    <li>
+                        <a href="#"><img src="img/giftCard2.jpg" alt="패키지"/>
+                            <div class="dd">
+                            <h4>파코니의 썸머파티</h4>금액충전형
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/giftCard3.jpg" alt="패키지"/>
+                            <div class="dd">
+                            <h4>PACONNIE A형</h4>금액충전형
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="etcWrap">
+        <div class="etcContentsWrap">
+            <div class="etcTwoWrap">
+                <div class="boardSection">
+                    <div class="board">
+                        <p class="boardDt"><strong>공지사항</strong></p>
+                        <div class="boardA">
+                            <a href="#">[기타] 개인정보처리방침 및 위치기반 서비스</a>
+                        </div>
+                    </div>
+                    <div class="customerHelp">
+                        <dl>
+                            <dt class="boardDt">
+                                <strong>고객센터</strong>
+                            </dt>
+                            <dd class="boardContent">
+                                <strong>1544-1122</strong>
+                                <p>고객센터 운영시간(평일 09:00)</p>
+                                <p>업무시간 외 자동응답 안내 가능합니다.</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="boardBtn">
+                        <button class="boardBtn2 ">FAQ</button>
+                        <button class="boardBtn2 ">1:1문의</button>
+                        <button class="boardBtn3 ">대관/단체문의</button>
+                    </div>
+                </div>
+           <div class="AppSection">
+                <dl>
+                    <dt>
+                        <strong style="color: rgba(0, 0, 0, 0.61);">앱 다운로드</strong>
+                        <p><span class="CGVAppP">CGV앱에서 더 편리하게 이용하세요</span></p>
+                    </dt>
+                    <dd>
+                        <img src="img/QRcode.gif" alt="QR코드"/>
+                    </dd>
+                    <dd>
+                        <p><span class="CGVAppP">QR코드 스캔하고</span></p>
+                        <p><span class="CGVAppP">앱설치 페이지로 바로 이동하세요</span></p>
+                    </dd>
+                </dl>
+            </div>
+           </div>
+           <div class="moveBannerWrap">
+                <div class="moveBannerSection">
+                    <a href="#"><img src="img/movingBanner.png" class='i' alt="moving"/></a>
+                    <a href="#"><img src="img/movingBanner3.png" class="i2" alt="moving"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="footerWrap">
+        <div class="footerContents">
+            <ul>
+                <li><a href="#"><h5>회사소개</h5></a></li>
+                <li><a href="#"><h5>지속가능경영</h5></a></li>
+                <li><a href="#"><h5>IR</h5></a></li>
+                <li><a href="#"><h5>채용정보</h5></a></li>
+                <li><a href="#"><h5>이용약관</h5></a></li>
+                <li><a href="#"><h5>편성기준</h5></a></li>
+                <li><a href="#"><h5>광고/제휴/출점문의</h5></a></li>
+                <li><a href="#"><h5>사이버감사실</h5></a></li>
+                <li><a href="#"><h5>이메일주소무단수집거부</h5></a></li>
+                <li><a href="#"><h5 class="strong">개인정보처리방침</h5></a></li>
+                <li><a href="#"><h5>법적고지</h5></a></li>
+                <li><a href="#"><h5>윤리경영</h5></a></li>
+            </ul>
+        </div>
+        <div class="address">
+            <ul>
+                <li>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</li>
+                <li>대표이사 :
+                    허민회
+                    사업자등록번호
+                    104-81-45690
+                    통신판매업신고번호
+                    2017-서울용산-0662 사업자정보확인</li>
+                <li>호스팅사업자
+                    CJ올리브네트웍스
+                    개인정보보호 책임자 : 
+                    조진호
+                    대표이메일
+                    cjcgvmaster@cj.net</li>
+                <li>&copy; CJ CGV. All Rights Reserved</li>
+            </ul>
+        </div>
+        <div class="option">
+            <label for="goFamily" class="familySite">CJ그룹 계열사 바로가기</label>
+            <select id="goFamily" >
+                <option value="#none" class="familysiteTitle">계열사 바로가기</option>
+                <optgroup label="CJ그룹">
+                    <option value="https://www.cj.net/">CJ주식회사</option>
+                </optgroup>
+                <optgroup label="식품 & 식품서비스">
+                    <option value="https://www.cj.co.kr/kr/index">CJ제일제당</option>
+                    <option value="https://www.cjfoodville.co.kr/main.asp">CJ푸드빌</option>
+                    <option value="https://www.cjfreshway.com/index.jsp">CJ프레시웨이</option>
+                </optgroup>
+                <optgroup label="생명공학">
+                    <option value="https://www.cj.co.kr/kr/about/business/bio">CJ 제일제당 BIO사업부문</option>
+                    <option value="https://www.cj.co.kr/kr/about/business/bio">CJ FEED&CARD </option>
+                </optgroup>
+                <optgroup label="물류 & 신유통">
+                    <option value="https://www.cjlogistics.com/ko/main">CJ 대한통운</option>
+                    <option value="http://www.cjenc.co.kr/kr/Default.asp">CJ 대한통운 건설부문</option>
+                    <option value="https://www.oliveyoung.co.kr/store/company/brandStory.do">CJ 올리브영</option>
+                    <option value="https://www.cjolivenetworks.co.kr/">CJ 올리브네트웍스</option>
+                    <option value="https://www.cjenm.com/ko/">CJ ENM 커머스부문</option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+</footer>
+    <button class="top" >
+        <span 
+        class="material-symbols-outlined">
+        arrow_upward
+        </span>
+    </button>
+</body>
+</html>

@@ -1,0 +1,166 @@
+
+
+main {    
+
+    margin-top: 150px;
+    width: 100%;
+    min-height: 600px;
+}
+.login-advWrap{
+    
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+    
+}
+.loginWrap {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+
+.loginSection ul{
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;
+    justify-content: start;
+display: flex;
+}
+
+.loginSection li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 1px;
+    background-color: gray;
+    width: 120px;
+    height: 40px;
+}
+.formWrap {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+
+    width:750px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset {
+
+    border: none;
+}
+.formDl {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+legend {
+    display: none;
+}
+
+
+dt{
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+#id, #password {
+    box-sizing: border-box;
+    padding-left: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.621);
+    width: 255.5px;
+    height: 40px;
+    margin: 4px;
+}
+.login_text {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    padding: 5px 10px 0px 70px;
+}
+
+.findIdPw{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 75px;
+    padding-bottom: 10px;
+}
+.findIdPw span{
+    border-bottom: 1px solid gray;
+    margin-left: 12px;
+}
+.loginBtn, .loginNaverBtn{
+    border: none;
+    opacity: 0.7;
+    cursor: pointer;
+    width: 255px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.loginBtn{
+    background-color: red;
+
+}
+.loginNaverBtn {
+    background-color: rgb(30, 186, 10);
+}
+
+
+.advWrap{
+    margin-left: 50px;
+}
+.advWrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.userJoinBannerWrap{
+    
+    margin: 0 auto;
+    width: 1145px;
+    border: 1px solid rgba(128, 128, 128, 0.662);
+    margin-top: 50px;
+    height: 60px;
+}
+
+.userJoinSection ul {
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.userJoinSection li{
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+.userJoinSection a {
+    font-size: 14px;
+    color: black;
+}
